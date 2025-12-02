@@ -1,0 +1,12 @@
+name: cmip7repacking
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - cftime
+  - pyfive
+  - s3fs
+  - numpy
+  - matplotlib
+  - 'libnetcdf<4.9'
+  - pandas
